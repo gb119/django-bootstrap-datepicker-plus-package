@@ -30,5 +30,5 @@ jobs:
           overwrite: true
           python-version: "3.10"
           user: phygbu
-          label: auto
+          label: main
           token: ${{ secrets.ANACONDA }} # Replace with the right name of your secret
