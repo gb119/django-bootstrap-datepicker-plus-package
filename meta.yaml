@@ -26,7 +26,7 @@ requirements:
     - typing-extensions *
 
 outputs:
-  type: conda
+  - type: conda
 
 about:
   home: https://github.com/monim67/django-bootstrap-datepicker-plus
