@@ -1,5 +1,5 @@
 {% set name = "django-bootstrap-datepicker-plus" %}
-{% set version = "5.0.4" %}
+{% set version = "5.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django_bootstrap_datepicker_plus-{{ version }}.tar.gz
-  sha256: fac3f7aeacd3fa63a9829077983ff728aea145f5a4f493c5dfbf870cb36c53ca
+  sha256: ea5e2bc2137a72b57ba10d2a5f18373049b0d252052f921e5a76c260eaaa35ee
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.7.0,<4.0.0
-    - django >=2,<5
+    - django >=3,<6
     - pydantic *
     - typing-extensions *
 
