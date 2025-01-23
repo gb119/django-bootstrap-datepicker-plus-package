@@ -25,10 +25,6 @@ requirements:
     - pydantic *
     - typing-extensions *
 
-outputs:
-  - name:  django-bootstrap-datepicker-plus
-    type: conda
-
 about:
   home: https://github.com/monim67/django-bootstrap-datepicker-plus
   summary: Bootstrap3/Bootstrap4/Bootstrap5 DatePickerInput, TimePickerInput, DateTimePickerInput, MonthPickerInput, YearPickerInput
